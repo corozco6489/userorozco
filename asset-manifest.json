@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/civil-jo/static/css/main.375cf8f7.css",
+    "main.js": "/civil-jo/static/js/main.8868aecb.js",
+    "index.html": "/civil-jo/index.html",
+    "main.375cf8f7.css.map": "/civil-jo/static/css/main.375cf8f7.css.map",
+    "main.8868aecb.js.map": "/civil-jo/static/js/main.8868aecb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.375cf8f7.css",
+    "static/js/main.8868aecb.js"
+  ]
+}
