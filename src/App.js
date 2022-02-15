@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./components/global.css"
+import Header from "./components/header/Header";
+import MobileMenu from "./components/menumobile/MobileMenu";
+import Main from "./components/main/Main";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+  <Header/>
+  <input type="checkbox" id="menu-toggle" />
+  <MobileMenu/>
+  <Main/>
+
+  </>
   );
 }
 
