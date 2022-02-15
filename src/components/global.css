@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --color-main: #0c3d71;
+  --color-main: #18d26e;
   --main-color: hsl(var(--hue-color), 89%, 60%);
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
@@ -191,7 +191,7 @@ nav label {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 25px;
-}
+  gap: 3.6rem;}
 
 .skill {
   display: flex;
@@ -415,7 +415,7 @@ nav label {
   height: 100%;
   width: 70%;
   margin-left: auto;
-  background: #212529;
+  background: black;
   padding: 1rem 2rem;
 }
 
@@ -446,8 +446,50 @@ nav label {
 }
 
 .aside-content li:first-child a {
-  color: #0dd7f7;
+  color: var(--color-main);
 }
+
+
+
+form {
+  flex: 1 1 42rem;
+}
+form p {
+  color: white;
+  font-size: 25px;
+}
+form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form .inputBox input {
+  width: 49%;
+}
+form .inputBox input, form textarea {
+  border-radius: 5rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  color: white;
+  text-transform: none;
+  margin: 0.7rem 0;
+  background: light-bg;
+}
+form textarea {
+  width: 100%;
+  border-radius: 1rem;
+  resize: none;
+  height: 10rem;
+}
+form .btn {
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+form .btn:hover {
+  background: white;
+  color: black;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .work-grid {
@@ -524,4 +566,9 @@ nav label {
   .hero-content p {
     text-align: center;
   }
+
+.contact-info-grid h2 {
+
+  font-size: 0.9rem;
+}
 }

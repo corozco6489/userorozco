@@ -15,16 +15,16 @@ export default function Header() {
 
         <ul>
           <li><a href="#works">Works</a></li>
-          <li>
+          {/* <li>
             <a
               href="https://drive.google.com/file/d/1Cp8wO2ZD6nq5d1M6M1y8ZUT2GU_-I5MN/view?usp=sharing"
               target="_blank"
               >Resume</a
             >
-          </li>
+          </li> */}
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a href="https://youtube.com/coderesource" target="_blank"
+            <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" target="_blank"
               >My Youtube</a
             >
           </li>

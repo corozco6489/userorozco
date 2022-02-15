@@ -1,6 +1,32 @@
 import React from 'react'
+import emailjs from "emailjs-com";
+import { useRef } from "react";
+import { useState } from "react";
 
 export default function Main() {
+  const formRef = useRef();
+
+  const [message, setMessage] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_g7n6n8m",
+        "template_9n4oap7",
+        formRef.current,
+        "user_yqimngPQxBoZsByq1zEN0"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setMessage(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <main>
     <div className="hero-section">
@@ -64,6 +90,8 @@ export default function Main() {
             <img src="assets/img/works/react.png" />
             <small>React</small>
           </div>
+
+          
         </div>
         <div className="skill-wrapper">
           <div className="skill">
@@ -303,7 +331,7 @@ export default function Main() {
             </div>
           </div>
 
-          <a className="btn btn-main">More Projects</a>
+          <a className="btn btn-main" href='https://inforozco.ml/' target="_blank">More Projects</a>
         </div>
       </div>
     </div>
@@ -338,18 +366,18 @@ export default function Main() {
               <div>
                 <small>Reach me through</small>
                 <div className="social-contact">
-                  <a href="mailto: techadam90@gmail.com" target="_blank"
+                  <a href="mailto: corozco6489@gmail.com" target="_blank"
                     ><span className="ti-email"></span
                   ></a>
                   <a
-                    href="https://www.linkedin.com/in/techadam90/"
+                    href="https://www.linkedin.com/in/carlosorozco6489/"
                     target="_blank"
                     ><span className="ti-linkedin"></span
                   ></a>
-                  <a href="https://github.com/techadam" target="_blank"
+                  <a href="https://github.com/corozco6489" target="_blank"
                     ><span className="lab la-github"></span
                   ></a>
-                  <a href="https://youtube.com/coderesource" target="_blank"
+                  <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" target="_blank"
                     ><span className="lab la-youtube"></span
                   ></a>
                 </div>
@@ -363,33 +391,40 @@ export default function Main() {
               extraordinary!</small
             >
 
-            <form action="">
-              <div className="contact-form-wrapper">
-                <div className="form-wrapper">
-                  <label for="">Email</label>
-                  <input
-                    type="email"
-                    placeholder="Your-email@example.com"
-                    className="form-input"
-                  />
-                </div>
+            <form ref={formRef} onSubmit={handleSubmit}>
+            <div className="inputBox">
+              <input type="text" placeholder="your name" name="user_name"  required/>
+              <input
+                type="number"
+                placeholder="your number"
+                name="user_number"
+                required
+              />
+            </div>
 
-                <div className="form-wrapper">
-                  <label for="">Message</label>
-                  <textarea
-                    name=""
-                    id=""
-                    rows="4"
-                    placeholder="Enter Your Message"
-                    className="form-input"
-                  ></textarea>
-                </div>
+            <div className="inputBox">
+              <input type="email" placeholder="your email" name="user_email" required />
+              <input
+                type="text"
+                placeholder="your subject"
+                name="user_subject"
+                required
+              />
+            </div>
 
-                <div className="form-wrapper">
-                  <button className="btn btn-main">Send Message</button>
-                </div>
-              </div>
-            </form>
+            <textarea
+              name="message"
+              placeholder="your message"
+              id=""
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+
+            <input type="submit" value="Send Message" className="btn btn-main" />
+            <br />
+            <p> {message && " Thank You...."}</p>
+          </form>
           </div>
         </div>
       </div>
