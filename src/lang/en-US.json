@@ -1,0 +1,50 @@
+{
+  "header.works": "Works",
+  "header.contact": "Contact",
+  "header.link": "My Youtube",
+  "home.name": "Hi , I'm Carlos Orozco",
+  "home.perfil": "Electronic Engineer",
+  "home.description": "I am a professional with experience in Telecommunications, Servers and Programming",
+  "home.skill": "Skills and Knowledge",
+  "home.download": "Download CV",
+  "home.works": "Some of my Works ",
+
+  "project.btn": "More projects ",
+  "project.view": "View",
+
+
+
+  "project.title1": "Digital Modulations Applied to Images",
+  "project.description1": "Simulation in MATLAB of the Digital Modulations M_ASK, M_FSK, M_PSK, M_QAM, 64 bits of the TX of images of 5 formats: gif, png, jpg, among others. Obtain from the project data of the modulation and demodulation that are: Equation, index of AB modulation, Waveform obtain the Spectral Density of the Signal.",
+
+  "project.title2": "Botduino (ChatBot)",
+  "project.description2": "Security system through chatbot, the telegram api is used to control real-time notifications of the person at the door, access control through arduino and esp32cam.",
+
+  "project.title3": "Bottling HMI",
+  "project.description3": "HMI of the automation process of a liquid bottling plant using a S7-1500 plc and Labview to visualize the process in real time.",
+
+  "project.title4": "Modbus Communication",
+  "project.description4": "Automation of a bottling crate plant using tia portal, node red and rasberry pi.",
+
+  "project.title5": "Chatbot whatsapp",
+  "project.description5": "Security system through chatbot, the whatsapp api is used to control real-time notifications of the person at the door, access control through arduino and esp32cam.",
+
+  "project.title6": "Optical Character Recognition (OCR)",
+  "project.description6": "Recognition of Characters in an image using OCR (Optical Character Recognition).",
+
+  "project.title7": "Portfolio React",
+  "project.description7": "Landing page using reacts js and sass.",
+
+
+  "contact.title": "Contact",
+  "contact.subtitle": "Get in touch",
+  "contact.subtitle1": "Ubication",
+  "contact.subtitle2": "Reach me through",
+  "contact.subtitle3": "Interested in working together?",
+  "contact.subtitle4": "Ready to get started? Let's create something extraordinary!"
+ 
+
+
+
+  
+}

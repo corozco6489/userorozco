@@ -1,0 +1,42 @@
+{
+  "header.works": "Trabajos",
+  "header.contact": "Contacto",
+  "header.link": "Mi Youtube",
+  "home.name": "Hola, soy Carlos Orozco",
+  "home.perfil": "Ingeniero Electrónico",
+  "home.description": "Soy un profesional con experiencia en Telecomunicaciones, Servidores y Programación",
+  "home.skill": "Habilidades y Conocimientos",
+  "home.download": "Descargar CV",
+  "home.works": "Algunos de mis trabajos",
+  "project.btn": "Más Proyectos ",
+  "project.view": "Ver",
+
+
+  "project.title1": "Modulaciones Digitales Aplicadas a Imágenes",
+  "project.description1": "Simulación en MATLAB de las Modulaciones Digitales M_ASK, M_FSK, M_PSK, M_QAM, 64 bits del TX de imágenes de 5 formatos: gif, png, jpg, entre otros. Obtener del proyecto datos de la modulación y demodulación que son: Ecuación, índice de modulación AB, Forma de Onda obtienen la Densidad Espectral de la Señal.",
+
+  "project.title2": "Botduino (ChatBot)",
+  "project.description2": "Sistema de seguridad mediante chatbot, se utiliza la api de telegram para controlar notificaciones en tiempo real de la persona en la puerta, control de acceso mediante arduino y esp32cam.",
+
+  "project.title3": "HMI de embotellado",
+  "project.description3": "HMI del proceso de automatización de una planta embotelladora de líquidos usando un S7-1500 plc y Labview para visualizar el proceso en tiempo real.",
+
+  "project.title4": "Comunicación Modbus",
+  "project.description4": "Automatización de una planta de cajas de embotellado usando tia portal, node red y rasberry pi.",
+
+  "project.title5": "Chatbot whatsapp",
+  "project.description5": "Sistema de seguridad mediante chatbot, se utiliza la api de whatsapp para controlar notificaciones en tiempo real de la persona en la puerta, control de acceso mediante arduino y esp32cam.",
+
+  "project.title6": "Reconocimiento óptico de caracteres (OCR)",
+  "project.description6": "Reconocimiento de caracteres en una imagen usando OCR (reconocimiento óptico de caracteres).",
+
+  "project.title7": "Portafolio React",
+  "project.description7": "Página de inicio usando reacts js y sass",
+
+  "contact.title": "Contacto",
+  "contact.subtitle": "Ponte en contacto",
+  "contact.subtitle1": "Ubicación",
+  "contact.subtitle2": "Comunícate conmigo",
+  "contact.subtitle3": "¿Interesado en trabajar juntos?",
+  "contact.subtitle4": "¿Listo para comenzar? ¡Creemos algo extraordinario!"
+}

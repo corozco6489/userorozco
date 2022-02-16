@@ -1,11 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import {LangProvider} from "./context/langContext";
+import {ThemeProvider} from "./context/context";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <LangProvider>
+    <ThemeProvider>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
+    </ThemeProvider>
+  </LangProvider>,
+  document.getElementById("root")
+);
