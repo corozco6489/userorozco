@@ -277,15 +277,13 @@ export default function Main() {
                   />
                 </p>
                 <div className="work-tech">
-                  <span
-                    className="iconify"
-                    data-icon="file-icons:matlab"
-                  ></span>
+                <span class="lab la-python"></span>
+                  <span class="lab la-telegram"></span>
+                  <span class="iconify" data-icon="cib:arduino"></span>
                 </div>
                 <div className="work-btn">
                   <a
-                    href="https://la.mathworks.com/matlabcentral/fileexchange/96942-modulaciones-digitales-aplicado-a-imagenes-matlab"
-                    target="_blank"
+                    href="https://youtu.be/_fL-Wqhd-xs"
                     className="btn btn-outline-main"
                   >
                                         <FormattedMessage id="project.view" defaultMessage='View'/>
@@ -312,15 +310,12 @@ export default function Main() {
                   />
                 </p>
                 <div className="work-tech">
-                  <span
-                    className="iconify"
-                    data-icon="file-icons:matlab"
-                  ></span>
+                <span class="iconify" data-icon="cib:siemens"></span>
+                  <span class="iconify" data-icon="simple-icons:labview"></span>
                 </div>
                 <div className="work-btn">
                   <a
-                    href="https://la.mathworks.com/matlabcentral/fileexchange/96942-modulaciones-digitales-aplicado-a-imagenes-matlab"
-                    target="_blank"
+                    href="https://youtu.be/Pst41ZrJk_s"
                     className="btn btn-outline-main"
                   >
                                         <FormattedMessage id="project.view" defaultMessage='View'/>
@@ -347,14 +342,13 @@ export default function Main() {
                   />
                 </p>
                 <div className="work-tech">
-                  <span
-                    className="iconify"
-                    data-icon="file-icons:matlab"
-                  ></span>
+                <span class="iconify" data-icon="cib:siemens"></span>
+                  <span class="iconify" data-icon="simple-icons:labview"></span>
+                  <span class="iconify" data-icon="cib:raspberry-pi"></span>
                 </div>
                 <div className="work-btn">
                   <a
-                    href="https://la.mathworks.com/matlabcentral/fileexchange/96942-modulaciones-digitales-aplicado-a-imagenes-matlab"
+                    href="https://youtu.be/4E6TmGcABlQ"
                     target="_blank"
                     className="btn btn-outline-main"
                   >
@@ -387,14 +381,13 @@ export default function Main() {
                   />
                 </p>
                 <div className="work-tech">
-                  <span
-                    className="iconify"
-                    data-icon="file-icons:matlab"
-                  ></span>
+                <span class="lab la-node"></span>
+                  <span class="lab la-js-square"></span>
+                  <span class="iconify" data-icon="cib:arduino"></span>
                 </div>
                 <div className="work-btn">
                   <a
-                    href="https://la.mathworks.com/matlabcentral/fileexchange/96942-modulaciones-digitales-aplicado-a-imagenes-matlab"
+                    href="https://youtu.be/vqRQqrNxscw"
                     target="_blank"
                     className="btn btn-outline-main"
                   >
@@ -433,7 +426,7 @@ export default function Main() {
                 </div>
                 <div className="work-btn">
                   <a
-                    href="https://la.mathworks.com/matlabcentral/fileexchange/96942-modulaciones-digitales-aplicado-a-imagenes-matlab"
+                    href="https://la.mathworks.com/matlabcentral/fileexchange/89654-optical-character-recognition-ocr?s_tid=srchtitle"
                     target="_blank"
                     className="btn btn-outline-main"
                   >
@@ -462,14 +455,12 @@ export default function Main() {
                   />
                 </p>
                 <div className="work-tech">
-                  <span
-                    className="iconify"
-                    data-icon="file-icons:matlab"
-                  ></span>
+                <span class="lab la-react"></span>
+
                 </div>
                 <div className="work-btn">
                   <a
-                    href="https://la.mathworks.com/matlabcentral/fileexchange/96942-modulaciones-digitales-aplicado-a-imagenes-matlab"
+                    href="https://corozco6489.github.io/Portfolio-dark-mode/"
                     target="_blank"
                     className="btn btn-outline-main"
                   >
