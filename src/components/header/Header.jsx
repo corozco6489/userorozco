@@ -13,7 +13,7 @@ export default function Header() {
             <div className="mail-icon">
               <span className="ti-email"></span>
             </div>
-            <span>corozco6489@gmail.com</span>
+            <span>youremail@gmail.com</span>
           </div>
 
           <div className="banderas">
